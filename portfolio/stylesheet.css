@@ -1,0 +1,169 @@
+* {
+  margin:0;
+  padding: 0;
+}
+body {
+  background-image: url(images/marble.jpg);
+  background-size: cover;
+}
+section {
+  margin-bottom: 60px;
+
+}
+.logo {
+  font-size: 40px;
+  font-weight: lighter;
+  font-family: 'Righteous', cursive;
+  margin-left: 50px;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  font-family: helvetica, arial, sans-serif;
+  padding: 15px;
+}
+.menu a {
+  text-decoration: none;
+  color: #666;
+}
+.menu nav a:hover {
+  color: black;
+}
+.menu nav {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+}
+p {
+  font-family: helvetica, arial, sans-serif;
+  text-align: center;
+  font-size: 50px;
+  color: #666;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: lighter;
+}
+.om_mig {
+  display: flex;
+  justify-content: center;
+  background-color: #666;
+}
+.picture_of_me {
+  display:flex;
+  justify-content: center;
+}
+.container {
+  background: #666;
+  height: 644px;
+  width:100%;
+}
+
+.overskrift h2 {
+  text-align: center;
+  font-size: 50px;
+  font-family: helvetica,arial,sans-serif;
+  color: white;
+  font-weight: lighter;
+  padding: 15px 15px 10px 15px;
+}
+/*.image img{
+    float: center;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 700px;
+}*/
+.description p {
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  /*width: 50%;*/
+  float: center;
+  padding-top: 50px;
+  letter-spacing: .5px;
+  font-family: helvetica, arial, sans-serif;
+  line-height: 30px;
+}
+
+/*.image-links img {
+  width:320px;
+}*/
+.image-links h2 {
+  text-align: center;
+  font-size: 50px;
+  font-family: helvetica,arial,sans-serif;
+  font-weight: lighter;
+}
+.grid {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.grid img {
+  margin:1.5em;
+}
+.grid1 img {
+  margin:1.5em;
+}
+.grid1{
+  display:flex;
+  justify-content: center;
+}
+.kontakt {
+  float: center;
+  width; 100%;
+  padding: 80px 15px;
+  background-color: grey;
+}
+.kontakt .kontakt-content {
+  margin:auto;
+  max-width: 650px;
+}
+.kontakt .kontakt-content input,
+.kontakt .kontakt-content textarea {
+  height: 50px;
+  border: none;
+  border-left: 2px solid transparent;
+  padding: 10px 15px;
+  color: #808080;
+  margin-bottom: 30px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  background-color: white;
+  transition: border .5s ease;
+}
+.kontakt .kontakt-content textarea {
+  height: 100px;
+}
+.kontakt .kontakt-content button {
+  display: block;
+  margin: auto;
+  border-radius: 40px;
+  padding: 15px 20px 15px 20px;
+}
+.kontakt .kontakt-content button:hover {
+  background-color: grey;
+}
+.container2 h2 {
+  text-align: center;
+}
+.title {
+  font-family: helvetica,arial,sans-serif;
+  margin-bottom: 10px;
+}
+.grid2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.grid2 img {
+    margin:0.5em;
+}
